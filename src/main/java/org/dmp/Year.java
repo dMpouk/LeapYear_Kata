@@ -17,6 +17,6 @@ public class Year
     }
 
     private boolean isNotDivisibleBy(int number) {
-        return !(isDivisibleBy(number));
+        return year % number != 0;
     }
 }
